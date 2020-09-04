@@ -35,7 +35,7 @@ const TheContent = () => {
                   )} />
               )
             })}
-            <Redirect from="/admin" to="/admin/dashboard" />
+            <Redirect from="/" to="/dashboard" />
           </Switch>
         </Suspense>
       </CContainer>

@@ -5,7 +5,7 @@ export default [
   {
     _tag: 'CSidebarNavItem',
     name: 'Dashboard',
-    to: '/admin/dashboard',
+    to: '/dashboard',
     icon: <CIcon name="cil-speedometer" customClasses="c-sidebar-nav-icon"/>,
     badge: {
       color: 'info',
@@ -19,13 +19,13 @@ export default [
   {
     _tag: 'CSidebarNavItem',
     name: 'Colors',
-    to: '/admin/theme/colors',
+    to: '/theme/colors',
     icon: 'cil-drop',
   },
   {
     _tag: 'CSidebarNavItem',
     name: 'Typography',
-    to: '/admin/theme/typography',
+    to: '/theme/typography',
     icon: 'cil-pencil',
   },
   {
@@ -41,82 +41,82 @@ export default [
       {
         _tag: 'CSidebarNavItem',
         name: 'Breadcrumb',
-        to: '/admin/base/breadcrumbs',
+        to: '/base/breadcrumbs',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'Cards',
-        to: '/admin/base/cards',
+        to: '/base/cards',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'Carousel',
-        to: '/admin/base/carousels',
+        to: '/base/carousels',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'Collapse',
-        to: '/admin/base/collapses',
+        to: '/base/collapses',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'Forms',
-        to: '/admin/base/forms',
+        to: '/base/forms',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'Jumbotron',
-        to: '/admin/base/jumbotrons',
+        to: '/base/jumbotrons',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'List group',
-        to: '/admin/base/list-groups',
+        to: '/base/list-groups',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'Navs',
-        to: '/admin/base/navs',
+        to: '/base/navs',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'Navbars',
-        to: '/admin/base/navbars',
+        to: '/base/navbars',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'Pagination',
-        to: '/admin/base/paginations',
+        to: '/base/paginations',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'Popovers',
-        to: '/admin/base/popovers',
+        to: '/base/popovers',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'Progress',
-        to: '/admin/base/progress-bar',
+        to: '/base/progress-bar',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'Switches',
-        to: '/admin/base/switches',
+        to: '/base/switches',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'Tables',
-        to: '/admin/base/tables',
+        to: '/base/tables',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'Tabs',
-        to: '/admin/base/tabs',
+        to: '/base/tabs',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'Tooltips',
-        to: '/admin/base/tooltips',
+        to: '/base/tooltips',
       },
     ],
   },
@@ -129,29 +129,29 @@ export default [
       {
         _tag: 'CSidebarNavItem',
         name: 'Buttons',
-        to: '/admin/buttons/buttons',
+        to: '/buttons/buttons',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'Brand buttons',
-        to: '/admin/buttons/brand-buttons',
+        to: '/buttons/brand-buttons',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'Buttons groups',
-        to: '/admin/buttons/button-groups',
+        to: '/buttons/button-groups',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'Dropdowns',
-        to: '/admin/buttons/button-dropdowns',
+        to: '/buttons/button-dropdowns',
       }
     ],
   },
   {
     _tag: 'CSidebarNavItem',
     name: 'Charts',
-    to: '/admin/charts',
+    to: '/charts',
     icon: 'cil-chart-pie'
   },
   {
@@ -163,7 +163,7 @@ export default [
       {
         _tag: 'CSidebarNavItem',
         name: 'CoreUI Free',
-        to: '/admin/icons/coreui-icons',
+        to: '/icons/coreui-icons',
         badge: {
           color: 'success',
           text: 'NEW',
@@ -172,12 +172,12 @@ export default [
       {
         _tag: 'CSidebarNavItem',
         name: 'CoreUI Flags',
-        to: '/admin/icons/flags',
+        to: '/icons/flags',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'CoreUI Brands',
-        to: '/admin/icons/brands',
+        to: '/icons/brands',
       },
     ],
   },
@@ -190,29 +190,29 @@ export default [
       {
         _tag: 'CSidebarNavItem',
         name: 'Alerts',
-        to: '/admin/notifications/alerts',
+        to: '/notifications/alerts',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'Badges',
-        to: '/admin/notifications/badges',
+        to: '/notifications/badges',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'Modal',
-        to: '/admin/notifications/modals',
+        to: '/notifications/modals',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'Toaster',
-        to: '/admin/notifications/toaster'
+        to: '/notifications/toaster'
       }
     ]
   },
   {
     _tag: 'CSidebarNavItem',
     name: 'Widgets',
-    to: '/admin/widgets',
+    to: '/widgets',
     icon: 'cil-calculator',
     badge: {
       color: 'info',
@@ -235,22 +235,22 @@ export default [
       {
         _tag: 'CSidebarNavItem',
         name: 'Login',
-        to: '/admin/login',
+        to: '/login',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'Register',
-        to: '/admin/register',
+        to: '/register',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'Error 404',
-        to: '/admin/404',
+        to: '/404',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'Error 500',
-        to: '/admin/500',
+        to: '/500',
       },
     ],
   },

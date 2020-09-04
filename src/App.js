@@ -25,30 +25,30 @@ class App extends Component {
           <Switch>
             <Route
               exact
-              path="/admin/login"
+              path="/login"
               name="Login Page"
               render={(props) => <Login {...props} />}
             />
             <Route
               exact
-              path="/admin/register"
+              path="/register"
               name="Register Page"
               render={(props) => <Register {...props} />}
             />
             <Route
               exact
-              path="/admin/404"
+              path="/404"
               name="Page 404"
               render={(props) => <Page404 {...props} />}
             />
             <Route
               exact
-              path="/admin/500"
+              path="/500"
               name="Page 500"
               render={(props) => <Page500 {...props} />}
             />
             <Route
-              path="/admin"
+              path="/"
               name="Home"
               render={(props) => <TheLayout {...props} />}
             />
