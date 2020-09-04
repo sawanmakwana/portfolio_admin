@@ -2,7 +2,7 @@
   "name": "admin",
   "version": "3.1.0",
   "description": "CoreUI React Open Source Bootstrap 4 Admin Template",
-  "homepage": ".",
+  "homepage": "/admin",
   "copyright": "Copyright 2017-2020 creativeLabs Łukasz Holeczek",
   "license": "MIT",
   "private": true,
@@ -33,7 +33,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "PUBLIC_URL=/admin react-scripts build && cp -R build path_to_html/admin",
+    "build": "PUBLIC_URL=/app react-scripts build && cp -R build /var/www/html/admin",
     "test": "react-scripts test",
     "test:cov": "npm test -- --coverage --watchAll=false",
     "test:debug": "react-scripts --inspect-brk test --runInBand",
