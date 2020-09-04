@@ -2,7 +2,7 @@
   "name": "admin",
   "version": "3.1.0",
   "description": "CoreUI React Open Source Bootstrap 4 Admin Template",
-  "homepage": "/admin",
+  "homepage": "./admin",
   "copyright": "Copyright 2017-2020 creativeLabs Łukasz Holeczek",
   "license": "MIT",
   "private": true,
