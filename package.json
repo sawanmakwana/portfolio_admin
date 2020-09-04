@@ -33,7 +33,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "PUBLIC_URL=/app react-scripts build && cp -R build /var/www/html/admin",
+    "build": "PUBLIC_URL=/admin react-scripts build && cp -R build /var/www/html/admin",
     "test": "react-scripts test",
     "test:cov": "npm test -- --coverage --watchAll=false",
     "test:debug": "react-scripts --inspect-brk test --runInBand",
